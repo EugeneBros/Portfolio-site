@@ -1,0 +1,325 @@
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	background: #242424;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+header {
+	background-image: url(../img/main3.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100% 644px;
+	min-height: 644px;
+	position: relative;
+}
+
+.header__top-line {
+	min-height: 105px;
+	box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .86);
+	padding: 22px 0;
+}
+
+.header__link {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: #fff dashed 1px;
+	font-family: 'BebasRegular';
+	transition: all .25s;
+}
+
+.header__link:hover {
+	border-bottom: transparent 1px dashed;
+}
+
+.top-line__addr {
+	padding-left: 50px;
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 26px;
+}
+
+.header__strong {
+	color: #d12f22;
+	display: block;
+	text-transform: uppercase;
+	font-size: 27px;
+	font-family: 'BebasRegular';
+	font-weight: bold;
+}
+
+.header__logo_wrap {
+	position: relative;
+	width: 100px;
+	margin: -20px auto;
+ }
+
+ .logo {
+ 	position: absolute;
+ 	display: inline-block;
+ 	margin: 0 auto;
+ }
+
+ .top-line__addr_right {
+ 	background-image: none;
+ 	text-align: right;
+ }
+
+ .header__nav {
+ 	height: 35px;
+ 	background: #242424;
+ 	box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+ 	text-transform: uppercase;
+ 	font-family: 'BebasRegular';
+ }
+
+ .nav {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style-type: none;
+ }
+
+ .nav__li {
+ 	float: left;
+ }
+
+ .nav__link {
+ 	color: #fff;
+ 	font-size: 16px;
+ 	padding: 0 26px 0 50px;
+ 	display: block;
+ 	line-height: 35px;
+ 	border-left: #3b3b3b 1px solid;
+ 	background-repeat: no-repeat;
+ 	background-position: 15px 6px;
+ 	transition: all 0.5s;
+ }
+
+ .nav__link:last-child {
+ 	border-right: #3b3b3b 1px solid;
+ }
+
+.active,
+.nav__link:hover {
+	background-color: #050505;
+}
+
+.about {
+	background-image: url(../img/main.png);
+}
+
+.automobiles {
+	background-image: url(../img/automobiles.png);
+}
+
+.service {
+	background-image: url(../img/service.png);
+}
+
+.parts {
+	background-image: url(../img/parts.png);
+}
+
+.contacts {
+	background-image: url(../img/contacts.png);
+}
+
+.dropdown__content {
+	display: none;
+	position: absolute;
+	background-color: #242424;
+	z-index: 1;
+}
+
+.dropdown__content .dropdown__content_link {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	line-height: 30px;
+	padding: 0px 10px;
+	font-size: 11px;
+	font-family: sans-serif;
+	width: 300px;
+	border-bottom: #3b3b3b 1px solid;
+	transition: all 0.5s;
+}
+
+.dropdown__content .dropdown__content_link:hover {
+	background-color: #050505;
+	text-decoration: underline;
+}
+
+.dropdown:hover .dropdown__content {
+	display: block;
+}
+
+input {
+	min-width: 200px;
+	background: #333;
+	float: right;
+	margin: 3px 0;	
+	color: #fff;
+	border-radius: 13px;
+	outline: none;
+}
+
+.header__title {
+	margin-top: 45px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	text-shadow: rgba(0, 0, 0, .55) 0 3px;
+}
+
+.header__desc {
+	text-align: center;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, .55) 0 2px;
+}
+
+.main-content__nav {
+ 	height: 25px;
+ 	position: relative;
+ }
+
+.main-nav {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style-type: none;
+ 	background: #242424;
+ 	text-transform: uppercase;
+ 	font-family: 'BebasRegular';
+ }
+
+.main-nav__li {
+ 	float: left;
+ 	width: 60px;
+ }
+
+.main-nav__li:first-child {
+ 	width: 135px;	
+ }
+
+.main-nav__link {
+ 	color: #fff;
+ 	font-size: 17px;
+ 	padding: 0;
+ 	display: block;
+ 	line-height: 25px;
+ 	border-left: #3b3b3b 1px solid;
+ 	background-repeat: no-repeat;
+ 	transition: all 0.5s;
+ 	text-align: center;
+ }
+
+.slick_car {
+ 	position: relative;
+ }
+
+.slicks {
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	min-height: 430px;
+	}
+	
+.slick_1 {
+	background-image: url(../img/carusel/30_main.jpg);
+ }
+
+.slick_2 {
+	background-image: url(../img/carusel/39_main.jpg);
+ }
+
+.slick_3 {
+	background-image: url(../img/carusel/40_main.jpg);
+ }
+
+.slick_4 {
+	background-image: url(../img/carusel/63_main.jpg);
+ }
+
+.slick_5 {
+	background-image: url(../img/carusel/65_main.jpg);
+ }
+
+.slick_6 {
+	background-image: url(../img/carusel/81_main.jpg);
+ }
+
+.main-content__inf_title {
+	font-family: 'BebasRegular';
+	color: #d12f22;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.main-content__inf_title a{
+	color: #d12f22;
+}
+
+.main-content__inf_desc {
+	font-family: 'RobotoMedium';
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.main-content__inf_desc_link {
+	color: #fff;
+}
+
+.main-content__inf_text {
+	color: #c2c2c2;
+	font-size: 12px;
+	margin-bottom: 25px;
+}
+
+footer {
+	min-height: 100px;
+	width: 100%;
+
+}
+
+.footer__menu {
+	position: relative;
+	min-height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	box-shadow: rgba(255, 255, 255, .3) 0 0 0 1px;
+	background-color: rgba(0, 0, 0, .86);
+}
+
+.footer__menu_wrap {
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer__menu_link {
+	color: #fff;
+	text-decoration: underline;
+	text-align: center;
+	font-family: 'BebasRegular';
+	font-size: 22px;
+	padding: 0 25px;
+	line-height: 100px;
+}
+
