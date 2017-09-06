@@ -1,0 +1,467 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+p, h1, h2, h3, h4, h5, h6, ul, li
+	margin: 0
+	padding: 0
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	color: $black
+	overflow-x: hidden
+	opacity: 1
+	background-color: #e4e0e5
+
+header
+	background-color: #FFF
+
+.header__wrapper
+	width: 1280px
+	margin: 0 auto
+	height: 104px
+
+.header__logo
+	line-height: 104px	
+	margin-left: 110px
+	float: left
+
+.header__nav
+	float: right
+	margin-right: 110px
+
+.header__nav_list
+	list-style-type: none
+	margin: 0
+	line-height: 104px
+
+.header__nav_item
+	float: left
+	padding-left: 50px
+	a
+		color: $black
+		text-transform: uppercase
+		font-weight: 600
+		padding-bottom: 10px
+		&:hover
+			text-decoration: none
+			span
+				border-bottom: 2px solid $accent
+			i
+				color: $accent
+
+.header__slider
+	position: relative
+	background-image: url("../img/header_bg.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	width: 100%
+	height: 600px
+
+.header__wrapper_slider
+	width: 1280px
+	margin: 0 auto
+	position: relative
+	height: 600px
+
+.header__slider_desc
+	width: 50%
+	float: right
+	margin-top: 194px
+
+.header__slider_desc
+	color: $white
+	font-size: 25px
+	font-weight: 700
+
+.header__slider_desc-txt
+	font-size: 20px
+	margin-right: 110px 
+	margin-bottom: 50px
+
+.header__button
+	font-size: 12px
+	padding: 15px 50px
+	color: $white
+	border-radius: 30px
+	text-transform: uppercase
+
+.header__button-left
+	background-color: $accent
+	margin-right: 35px
+	&:hover, &:focus
+		text-decoration: none
+		color: $white
+		background-color: lighten($accent, 1%)
+
+.header__button-right
+	padding: 13px 48px
+	border: 2px solid $white
+	border-radius: 30px
+	i
+		padding-left: 15px
+		font-size: 15px
+	&:hover, &:focus
+		text-decoration: none
+		color: $white
+
+.header__slider_dots
+	position: absolute
+	bottom: 0
+	left: 50%
+	margin-left: -30px
+
+.dot
+	cursor: pointer
+	width: 10px
+	height: 10px
+	margin: 0 2px
+	border: 1px solid rgba(255, 255, 255, 0.5)
+	border-radius: 50%
+	display: inline-block
+
+.active_dot
+	border: 2px solid #fff
+
+.center-block
+	background-color: #e4e0e5
+	background-image: url("../img/bg_our_works.jpg")
+	background-position: 0 0
+	background-repeat: no-repeat
+	background-size: 100% 1790px
+	
+
+.center-block__wrapper
+	width: 1060px 
+	margin: 0 auto
+
+.center-block__desc
+	font-size: 20px
+	line-height: 1.2
+	padding: 80px 0 70px
+	span
+		font-family: "athelas"
+		font-style: italic
+		font-size: 26px
+		color: $accent
+
+.our-works__title
+	text-align: center
+	font-size: 30px
+	margin-bottom: 10px
+
+.our-works__nav
+	text-align: center
+	font-size: 12px
+	text-transform: uppercase
+	margin-bottom: 40px
+
+.our-works__nav
+	text-align: center
+	font-size: 12px
+	text-transform: uppercase
+	margin-bottom: 40px
+
+.our-works__nav-item
+	color: $black
+	padding: 10px 20px
+	margin-right: 20px
+	font-weight: 600
+	&:last-child
+		margin-right: 0
+	&:hover
+		background-color: $accent
+		color: $white
+		text-decoration: none
+		border-radius: 20px
+
+.our-works__nav-item-active
+	background-color: $accent
+	border-radius: 20px
+	color: $white
+
+.our-works__gallery
+	position: relative
+
+.our-works__gallery_image
+	width: 265px
+	height: 265px
+	display: inline-block
+	margin: 0 -2px
+
+.our-works__gallery_image1
+	background-image: url("../img/our_work1.jpg")
+
+.our-works__gallery_image2
+	background-image: url("../img/our_work2.jpg")
+
+.our-works__gallery_image3
+	background-image: url("../img/our_work3.jpg")
+
+.our-works__gallery_image4
+	background-image: url("../img/our_work4.jpg")
+
+.our-works__gallery_image2, .our-works__gallery_image4
+	margin-bottom: -30px
+
+.our-works__gallery_image_bg
+	background-color: rgba(0, 0, 0, 0.55)
+	height: 100%
+	position: 
+	a
+		position: absolute
+		margin-top: 127px
+		color: $white
+		text-transform: uppercase
+		font-size: 12px
+		margin-left: 50px
+		img
+			vertical-align: 0
+			padding-left: 15px
+		&:hover
+			text-decoration: none
+
+.form__wrap
+	margin: 82px auto 0
+	height: 360px
+	width: 598px
+	background-color: $white
+	position: relative
+
+.form__title
+	text-align: center
+	font-size: 30px
+	font-weight: 700
+	padding-top: 70px
+	margin-bottom: 38px
+
+.form
+	text-align: center
+	input
+		width: 220px
+		height: 40px
+		margin: 0 -3px
+		border: 2px solid #d7d7d7
+		padding-left: 25px
+		outline: none
+
+.form__button-wrap
+	text-align: center
+	display: block
+	margin-top: 40px
+
+.form__button
+	text-align: center
+	color: $white
+	background-color: $accent
+	padding: 13px 50px
+	border-radius: 30px
+	text-transform: uppercase
+	font-weight: 700
+	&:hover
+		color: $white
+		text-decoration: none
+		background-color: lighten($accent, 1%)
+
+.form__img_left, .form__img_right
+	position: absolute
+
+.form__img_left
+	top: 50px
+	left: -160px
+
+.form__img_right
+	top: 100px
+	right: -60px
+
+.services, .contacts
+	margin-top: 150px
+
+.services
+	width: 56%
+	float: left
+	margin-bottom: 80px
+
+.contacts
+	width: 44%
+	float: right
+
+.services__title, .contacts__title
+	font-size: 30px
+	margin-bottom: 30px
+
+.services__list
+	list-style-type: none
+	border: 1px dashed $black
+	border-radius: 15px
+	margin-right: 60px
+	margin-bottom: 25px
+
+.services__item
+	line-height: 65px
+	padding: 0 30px
+
+.services__item2
+	background-color: #FFF
+	&:last-child
+		border-radius: 0 0 15px 15px
+
+.services__item_name
+	font-weight: 400
+	font-size: 20px
+
+.services__item_price
+	float: right
+	font-weight: 700
+	font-size: 20px
+
+.contacts__wrap
+	margin-left: 50px
+
+.contacts__geo_title, .contacts__time_title
+	font-size: 20px
+	margin-bottom: 20px
+
+.contacts__geo_address, .contacts__geo_phone, .contacts__time_graph
+	i
+		font-size: 30px
+		color: $accent
+	p
+		display: inline-block
+		font-size: 20px
+		margin-left: 40px
+		margin-top: -40px
+
+.contacts__time_graph
+	img
+		float: left
+		margin-top: 9px
+	p
+		margin-top: 0		
+
+.contacts__geo_phone
+	margin-bottom: 30px
+	i
+		font-size: 24px
+	p
+		margin-top: 0
+
+
+.contacts__geo_address
+	margin-bottom: 20px
+
+.services__link
+	color: $accent
+	font-size: 18px
+	font-weight: 600
+	text-transform: uppercase
+	img
+		margin-top: -5px
+		margin-left: 25px
+	&:hover
+		color: $accent
+		text-decoration: none
+
+.stock
+	background-image: url("../img/stock.jpg")
+	height: 450px
+	background-repeat: no-repeat
+	background-size: 100% 450px
+
+.stock__wrapper
+	width: 1060px
+	margin: 0 auto
+
+.stock__title
+	color: $white
+	text-align: center
+	font-size: 40px
+	padding-top: 180px
+	background-image: url("../img/gift.png")
+	background-repeat: no-repeat
+	background-position: 20px 175px
+
+.stock__txt
+	color: $white
+	text-align: center
+	margin-top: 8px
+	font-weight: 400
+	font-size: 20px
+	img
+		margin: 0 25px
+
+footer
+	height: 231px
+	background-color: #2c2c2c
+	color: $white
+	padding: 40px 0 20px
+
+.footer__wrapper
+	width: 1060px
+	margin: 0 auto
+
+.footer__column
+	width: 33.3%
+	float: left
+
+.footer__txt
+	font-size: 14px
+	margin-right: 55px
+	margin-top: 25px
+
+.footer__title
+	text-transform: uppercase
+
+.footer_address, .footer_phone
+	margin-top: 25px
+	i
+		font-size: 24px
+		color: $accent
+		padding-top: -20px
+		float: left
+	p
+		display: inline-block
+		font-size: 14px
+		margin-left: 20px
+
+.footer_phone
+	i
+		font-size: 18px
+		padding-top: 5px
+	p
+		margin-top: -20px
+
+.footer__graph
+	margin-top: 25px
+	img
+		float: left 
+	p
+		display: inline-block
+		font-size: 14px
+		margin-left: 20px
+
+.footer__socials
+	i
+		color: $accent
+		margin-left: 30px
+	img
+		margin-left: 50px
+
+.footer__socials_txt
+	font-size: 12px
+	margin-top: 45px
+	display: inline-block
+
+.footer__comp
+	color: #646464
+	font-size: 12px
+	margin-top: 30px
+
+
+
+
+@import "media" // Всегда в конце
