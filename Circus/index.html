@@ -18,15 +18,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-3">
-						<div class="header__logo"><a href="#">новосибирский<br/> государственный<br/> цирк</a></div>
+						<a href="#" class="header__logo">
+							<p>новосибирский<br/>государственный<br/>цирк</p>
+						</a>
 					</div>
 					<div class="col-sm-6">
 						<nav class="header__nav">
-							<a href="#afisha">афиша</a>
-							<a href="#buy">купить билеты</a>
-							<a href="#">отзывы</a>
+							<a href="#afisha" data-target="anchor">афиша</a>
+							<a href="#buy" data-target="anchor">купить билеты</a>
+							<a href="#rev" data-target="anchor">отзывы</a>
 							<a href="#">о цирке</a>
-							<a href="#">контакты</a>
+							<a href="#contactss" data-target="anchor">контакты</a>
 						</nav>
 					</div>
 					<div class="col-sm-3">
@@ -60,13 +62,13 @@
 			<div class="afisha__slider_bg-line1"></div>
 			<div class="afisha__slider_bg-line2"></div>
 			<div class="afisha__slider">
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide1"></div></div>
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide2"></div></div>
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide3"></div></div>
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide4"></div></div>
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide5"></div></div>
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide6"></div></div>
-				<div class="afisha__slide"><div class="afisha__slides afisha__slide7"></div></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide1.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide1"></div></a></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide2.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide2"></div></a></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide3.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide3"></div></a></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide4.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide4"></div></a></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide5.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide5"></div></a></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide6.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide6"></div></a></div>
+				<div class="afisha__slide"><a href="img/afisha/slider/slide7.jpg" data-lightbox="roadtrip"><div class="afisha__slides afisha__slide7"></div></a></div>
 			</div>
 		</div>
 		<div class="afisha__bg">
@@ -88,8 +90,9 @@
 		</div>
 		
 	</section>
+	<a name="buy"></a>
+	<section class="buy">
 
-	<section class="buy"><a name="buy"></a>
 		<div class="buy__bg1"></div>
 		<div class="buy__bg2"></div>
 		<div class="buy__bg3"></div>
@@ -201,6 +204,7 @@
 		</div>
 	</section>
 
+	<a name="rev"></a>
 	<section class="reviews">
 		<div class="reviews__bg"></div>
 		
@@ -219,7 +223,42 @@
 						</ul>
 
 						<div class="tab-content reviews__tabs_content">
-							<div class="tab-pane active" id="reviews">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, ducimus, debitis sit quis aliquid dicta est assumenda. Aspernatur repellat quia voluptatem hic, corporis ratione voluptas, molestiae recusandae saepe, sit nesciunt.</div>
+							<div class="tab-pane active" id="reviews">
+								<div class="reviews__tabs_content-slider">
+									<div class="reviews__tabs_content-slide">
+										<div class="reviews__tabs_content-slide_who">
+											— Андрей Петрович
+										</div>
+										<div class="reviews__tabs_content-slide_txt">
+											Дорогие, друзья! Информация для Бердчан и Новосибирцев! До 9 июля выступает цирк Цезарь братьев близнецов Шариповых в Новосибирске! За 39 лет жизни я много раз была в цирке. Но таких эмоций не испытывала не разу. Я и плакала и смеялась. От криков браво я охрипла и еще болят ладоши. Безумно классная программа. Вообще в Рогосцирке мало хороших коллективов осталось, а этот на мой взгляд самый классный. Много гимнастических номеров, мотоциклисты, из животных: лошади, верблюды, обезьяна, коза, лев, крокодил, змеи, питон. Программа обширная, 2,5 часа с антрактом. Наша семья в восторге! Спасибо Вам! Вы настоящие трудяги! Теперь будем следить за Вашим творчеством!
+										</div>
+									</div>
+									<div class="reviews__tabs_content-slide">
+										<div class="reviews__tabs_content-slide_who">
+											— Андрей Петрович
+										</div>
+										<div class="reviews__tabs_content-slide_txt">
+											Дорогие, друзья! Информация для Бердчан и Новосибирцев! До 9 июля выступает цирк Цезарь братьев близнецов Шариповых в Новосибирске! За 39 лет жизни я много раз была в цирке. Но таких эмоций не испытывала не разу. Я и плакала и смеялась. От криков браво я охрипла и еще болят ладоши. Безумно классная программа. Вообще в Рогосцирке мало хороших коллективов осталось, а этот на мой взгляд самый классный. Много гимнастических номеров, мотоциклисты, из животных: лошади, верблюды, обезьяна, коза, лев, крокодил, змеи, питон. Программа обширная, 2,5 часа с антрактом. Наша семья в восторге! Спасибо Вам! Вы настоящие трудяги! Теперь будем следить за Вашим творчеством!
+										</div>
+									</div>
+									<div class="reviews__tabs_content-slide">
+										<div class="reviews__tabs_content-slide_who">
+											— Андрей Петрович
+										</div>
+										<div class="reviews__tabs_content-slide_txt">
+											Дорогие, друзья! Информация для Бердчан и Новосибирцев! До 9 июля выступает цирк Цезарь братьев близнецов Шариповых в Новосибирске! За 39 лет жизни я много раз была в цирке. Но таких эмоций не испытывала не разу. Я и плакала и смеялась. От криков браво я охрипла и еще болят ладоши. Безумно классная программа. Вообще в Рогосцирке мало хороших коллективов осталось, а этот на мой взгляд самый классный. Много гимнастических номеров, мотоциклисты, из животных: лошади, верблюды, обезьяна, коза, лев, крокодил, змеи, питон. Программа обширная, 2,5 часа с антрактом. Наша семья в восторге! Спасибо Вам! Вы настоящие трудяги! Теперь будем следить за Вашим творчеством!
+										</div>
+									</div>
+									<div class="reviews__tabs_content-slide">
+										<div class="reviews__tabs_content-slide_who">
+											— Андрей Петрович
+										</div>
+										<div class="reviews__tabs_content-slide_txt">
+											Дорогие, друзья! Информация для Бердчан и Новосибирцев! До 9 июля выступает цирк Цезарь братьев близнецов Шариповых в Новосибирске! За 39 лет жизни я много раз была в цирке. Но таких эмоций не испытывала не разу. Я и плакала и смеялась. От криков браво я охрипла и еще болят ладоши. Безумно классная программа. Вообще в Рогосцирке мало хороших коллективов осталось, а этот на мой взгляд самый классный. Много гимнастических номеров, мотоциклисты, из животных: лошади, верблюды, обезьяна, коза, лев, крокодил, змеи, питон. Программа обширная, 2,5 часа с антрактом. Наша семья в восторге! Спасибо Вам! Вы настоящие трудяги! Теперь будем следить за Вашим творчеством!
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="tab-pane" id="facebook">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo est itaque vero porro quasi illo ex consequuntur ad animi commodi, ipsam provident voluptas vel adipisci. Minima repellendus, vel est sequi.</div>
 							<div class="tab-pane" id="vk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ex fuga nemo quas vel eaque, iste et, eligendi, inventore ducimus omnis maxime alias accusantium similique minus. Qui sunt, ipsam consectetur.</div>
 							<div class="tab-pane" id="yt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor repudiandae aliquam totam tempore vero accusantium repellat, maxime voluptatibus illum alias reprehenderit nulla officia quis error nemo placeat recusandae dolore?</div>
@@ -248,7 +287,8 @@
 
 	</section>
 
-	<section class="invitation">		
+	<section class="invitation"><a name="invitation"></a>
+		<div class="invitation__bg"></div>	
 		<div class="invitation__wrap">
 			
 			<div class="container">
@@ -282,7 +322,7 @@
 								<textarea class="invitation-textarea" name="invitation" cols="20" rows="5" placeholder="Текст приглашения"></textarea>
 
 								<div class="invitation__right-block_form-bottom">
-									<p class="invitation__right-block_form-bottom_txt">Нажимая кнопку отправить, Вы даете свое согласие на <span>обработку персональных данных</span></p>
+									<p class="invitation__right-block_form-bottom_txt">Нажимая кнопку отправить, Вы даете свое согласие на <a href="#">обработку персональных данных</a></p>
 									<a class="invitation__right-block_form-bottom_btn" href="#">отправить</a>
 								</div>
 							</div>
@@ -291,6 +331,7 @@
 
 					<div class="col-md-4">
 						<div class="invitation__left-block">
+							<div class="invitation__left-block_bg"></div>
 							<div class="invitation__left-block_img-wrap">
 								<div class="invitation__left-block_img"></div>
 							</div>
@@ -306,7 +347,9 @@
 		</div>
 	</section>
 
+	<a name="contactss"></a>
 	<section class="contacts">
+		<div class="contacts__bg"></div>
 		
 		<div class="container">
 			<div class="row">
@@ -322,6 +365,7 @@
 					</div>
 				</div>
 
+				<div class="contacts__right-block_bg"></div>
 				<div class="col-md-4">
 					<div class="contacts__right-block">
 						<div class="contacts__right-block_men"></div>
@@ -339,6 +383,7 @@
 	</section>
 
 	<section class="questions">
+		<div class="questions__bg"></div>
 		
 		<div class="container">
 			<div class="row">
@@ -493,11 +538,12 @@
 						<a href="#" class="qustions__more-questions_btn">Еще вопросы  &#8595;</a>
 					</div>
 					
-					<a href="#" class="qustions__btn">купить билеты в цирк</a>
+					<a href="#buy" data-target="anchor" class="qustions__btn">купить билеты в цирк</a>
 				</div>
 
 				<div class="col-md-4">
 					<div class="questions__information">
+						<div class="questions__information_bg-back"></div>
 						<div class="questions__information_bg"></div>
 						<h4 class="questions__information_title">Официальная информация</h4>
 						<a href="#" class="questions__information_link">Правила посещения цирка</a>
